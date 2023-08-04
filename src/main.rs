@@ -24,7 +24,7 @@ fn main(){
         "Source len: {:?}",
         input.get_ref().metadata().unwrap().len()
     );
-    println!("Target length: {:?}", output.metadata().unwrap().len());
+    println!("Target length of file:  {:?}", output.metadata().unwrap().len());
     println!("Time Elapsed: {:?}", start.elapsed());
 
 
